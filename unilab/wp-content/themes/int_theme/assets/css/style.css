@@ -1,0 +1,594 @@
+/* base classes*/
+.flex{
+	display: flex;
+}
+.container{
+	width: 85%;
+	margin: 0 auto;
+}
+button,
+input,
+textarea{
+	outline: none;
+}
+.icon-logo:before{
+	font-size: 58px;
+}
+/* burger bar */
+.topnav {
+	overflow: hidden;
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-orient: vertical;
+	-webkit-box-direction: normal;
+	    -ms-flex-direction: column;
+	        flex-direction: column;
+	display: none;
+  }
+  .topnav #myLinks {
+	display: none;
+  }
+  .topnav a {
+	color: #1d1d1d;
+	font-family: 'rubik-light';
+	font-size: 18px;
+	display: block;
+	margin-top: 10%;
+	text-transform: uppercase;
+	letter-spacing: 0.06em;
+  }
+  .topnav a.icon {
+	color: #1d1d1d;
+	font-size: 36px;
+  }
+/* index page
+========================================================================================================*/
+/* header */
+.header_bg{
+	background-color: #274374;
+	border: 1px solid #707070;
+	padding: 2%;
+}
+.header{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+.zako{
+	display: flex;
+}
+.zako li{
+	margin-right: 8%;
+}
+.zako a{
+	color: #FCFAFA;
+	font-size: 20px;
+	white-space: nowrap;
+}
+/* section 1 */
+.bg_img{
+	position: relative;
+}
+.block_wrapper{
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	background-color: #fff;
+	opacity: 0.89;
+	padding: 3% 2% 0 10%;
+	width: 30%;
+}
+.block_wrapper h1{
+	font-size: 47px;
+	color: #3C3C3C;
+	font-family: 'BPG Mrgvlovani Caps';
+}
+.block_wrapper p{
+	font-family: 'Bradley Hand ITC Std';
+	font-size: 24px;
+	color: #3C3C3C;
+	line-height: 32px;
+	margin: 5% 0;
+}
+.block_wrapper button{
+	border: #0C3D93 1px solid;
+	background-color: transparent;
+	color: #0C3D93;
+	font-size: 24px;
+	font-family: 'BPG Mrgvlovani Caps';
+	padding: 2% 5%;
+	cursor: pointer;
+	transition: 170ms linear;
+}
+.block_wrapper button:hover{
+	background-color:#0C3D93 ;
+	color: #fff;
+}
+/* section 2- about us */
+.bg_sec2{
+	padding: 10% 0 8% 10%;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	flex-wrap: wrap-reverse;
+}
+.about_wrapper{
+	width: 55%;
+}
+.about_wrapper h2{
+	color: #0C3D93;
+	font-size: 60px;
+	opacity: 0.75;
+	border-bottom: 3px solid #0C3D93;
+	width: 80%;
+	font-family: 'BPG Mrgvlovani Caps';
+}
+.about_wrapper p{
+	font-family: 'Bradley Hand ITC Std';
+	font-size: 24px;
+	color: #292929;
+	opacity: 0.75;
+	margin: 5% 0 3% 0;
+}
+.button_wrapper{
+	display: flex;
+	justify-content: flex-end;
+}
+.button_wrapper_about button{
+	font-family: 'BPG Mrgvlovani Caps';
+	border: #0C3D93 1px solid;
+	background-color: transparent;
+	color: #0C3D93;
+	font-size: 24px;
+	padding: 1.5% 3.5%;
+	cursor: pointer;
+	transition: 170ms linear;
+	margin-top: 10%;
+}
+.button_wrapper_about button:hover{
+	background-color:#0C3D93 ;
+	color: #fff;
+}
+.img_wrapper_about{
+	width: 35%;
+}
+.img_wrapper_about img{
+	width: 100%;
+	height: 100%;
+}
+
+/* section 2- services
+========================*/
+.bg_sec3{
+	background-color: #EEEDEF;
+	padding: 5% 10% 8% 0;
+	display: flex;
+	justify-content: space-between;
+	align-items: flex-end;
+	flex-wrap: wrap;
+}
+.img_wrapper_services{
+	width: 55%;
+}
+.img_wrapper_services h2{
+	font-family: 'BPG Mrgvlovani Caps';
+	font-size: 60px;
+	color: #0C3D93;
+	opacity: 0.75;
+	border-bottom: 3px #0C3D93 solid;
+	margin: 0 0 15% 20%;
+	width: 60%;
+}
+.img_wrapper_services img{
+	width: 100%;
+	height: 100%;
+}
+.text_wrapper_services{
+	width: 35%;
+}
+.text_wrapper_services h3{
+	font-family: 'BPG Mrgvlovani Caps';
+	color: #292929;
+	opacity: 0.75;
+	font-size: 40px;
+	border-bottom: 3px #292929 solid;
+	padding-bottom: 10%;
+	width: 80%;
+	margin-top: 7%;
+}
+.text_wrapper_services p{
+	font-family: 'Bradley Hand ITC Std';
+	font-size: 24px;
+	color: #292929;
+	opacity: 0.75;
+}
+.button_wrapper_services button{
+	font-family: 'BPG Mrgvlovani Caps';
+	border: #0C3D93 1px solid;
+	background-color: transparent;
+	color: #0C3D93;
+	font-size: 24px;
+	padding: 2% 4%;
+	cursor: pointer;
+	transition: 170ms linear;
+	margin-top: 10%;
+}
+.button_wrapper_services button:hover{
+	background-color:#0C3D93 ;
+	color: #fff;
+}
+
+/* section 3- gallery
+=====================*/
+.bg_sec4{
+	padding: 5% 0 8% 0;
+}
+.bg_sec4 h2{
+	font-family: 'BPG Mrgvlovani Caps';
+	font-size: 60px;
+	color: #0C3D93;
+	opacity: 0.75;
+	border-bottom: 3px #0C3D93 solid;
+	margin-bottom:10%;
+	width: 32%;
+}
+.gallery_wrapper{
+	display: flex;
+	justify-content: space-between;
+	flex-wrap: wrap;
+}
+.gallery_wrapper img{
+	width: 32%;
+	height: 100%;
+}
+.button_wrapper_gallery{
+	display: flex;
+	justify-content: center;
+}
+.button_wrapper_gallery button{
+	font-family: 'BPG Mrgvlovani Caps';
+	border: #0C3D93 1px solid;
+	background-color: transparent;
+	color: #0C3D93;
+	font-size: 24px;
+	padding: 1% 1.5%;
+	cursor: pointer;
+	transition: 170ms linear;
+	margin-top: 5%;
+	white-space: nowrap;
+}
+.button_wrapper_gallery button:hover{
+	background-color:#0C3D93 ;
+	color: #fff;
+}
+
+/* footer
+===============*/
+.footer_bg{
+	background-color: #EEEDEF;
+	padding: 2% 0 5% 0;
+}
+.footer_wrapper{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	flex-wrap: wrap;
+}
+.contact_wrapper{
+	width: 40%;
+}
+.contact_wrapper h2{
+	font-family: 'BPG Mrgvlovani Caps';
+	font-size: 60px;
+	color: #0C3D93;
+	opacity: 0.75;
+	border-bottom: 3px #0C3D93 solid;
+	margin-bottom: 15%;
+}
+.info_wrapper p{
+	font-family: 'BPG Mrgvlovani Caps';
+	font-size: 24px;
+	color: #292929;
+	opacity: 0.75;
+}
+.forms_wrapper{
+	display: flex;
+	flex-direction: column;
+}
+.forms_wrapper input,
+.forms_wrapper textarea{
+	font-family: 'BPG Mrgvlovani Caps';
+	border: none;
+	border-bottom: #0C3D93 solid 1px;
+	opacity: 0.5;
+	background-color: transparent;
+	font-size: 24px;
+	margin-bottom: 5%;
+	padding-bottom: 2%;
+}
+.forms_wrapper textarea{
+	resize: none;
+	padding: 0%;
+	margin-bottom: 10%;
+}
+.button_wrapper_footer{
+	display: flex;
+	justify-content: center;
+}
+.button_wrapper_footer button{
+	font-family: 'BPG Mrgvlovani Caps';
+	border: #0C3D93 1px solid;
+	background-color: transparent;
+	color: #0C3D93;
+	font-size: 24px;
+	padding: 1.5% 3%;
+	cursor: pointer;
+	transition: 170ms linear;
+}
+.button_wrapper_footer button:hover{
+	background-color:#0C3D93 ;
+	color: #fff;
+}
+.social{
+	font-size: 24px;
+	color: #292929;
+	border: 1px #292929 solid;
+	padding: 2% 3%;
+	margin: 5% 0 10% 0;	
+	transition: 170ms linear;
+}
+.social:hover{
+	background-color:#0C3D93 ;
+	color: #fff;
+	border: #0C3D93 1px solid;
+}
+
+/* contact page
+================================================================================================*/
+
+/* section */
+
+.cover_c{
+	position: relative;
+}
+.cover_c img{
+	width: 100%;
+}
+.cover_c h1{
+	font-family: 'BPG Mrgvlovani Caps';
+	position: absolute;
+	font-size: 47px;
+	color: #3C3C3C;
+	bottom: 0;
+	left: 50%;
+	background-color: #fff;
+	opacity: 0.89;
+	transform: translateX(-50%);
+	padding: 2% 3%;
+}
+.footer_bg_c{
+	background-color: #EEEDEF;
+	padding: 5% 0;
+}
+
+/* gallery page
+===================================================================================================*/
+.bg_gallery{
+	padding: 10% 0;
+}
+.marg{
+	margin-bottom: 2%;
+}
+.marg:last-child{
+	margin-bottom: 0;
+}
+
+/* about us page 
+===============================================================================================================*/
+
+.about_bg{
+	background-color: #F9F9F9;
+	padding: 10% 0 5% 0;
+}
+.article_wrapper{
+	display: flex;
+	justify-content: space-between;
+	align-items: flex-start;
+	flex-wrap: wrap-reverse;
+	margin-left: 10%;
+}
+.article_wrapper:nth-child(2){
+	margin: 10% 10% 10% 0;
+}
+.article_wrapper img{
+	width: 35%;
+	height: 100%;
+}
+.par_wrapper{
+	width: 60%;
+}
+.par_wrapper p{
+	font-family: 'Bradley Hand ITC Std';
+	font-size: 24px;
+	color: #292929;
+	opacity: 0.75;
+	margin-bottom: 3%;
+}
+.par_wrapper p:last-of-type{
+	margin-bottom: 0;
+}
+
+/* services page
+================================================================================================================*/
+.bg_services{
+	padding: 10% 0;
+	display: flex;
+	justify-content: space-between;
+}
+.ser_art_wrapper{
+	display: flex;
+	flex-wrap: wrap-reverse;
+	justify-content: space-between;
+	align-items: center;
+	margin: 0 0 0 10%;
+	width: 77%;
+}
+.ser_art_wrapper img{
+	width: 48%;
+	height: 100%;
+}
+.art_text_wrapper{
+	width: 45%;
+}
+.art_text_wrapper h2{
+	font-family: 'BPG Mrgvlovani Caps';
+	font-size: 40px;
+	color: #292929;
+	opacity: 0.75;
+	border-bottom: 3px #292929 solid;
+}
+.art_text_wrapper p{
+	font-family: 'Bradley Hand ITC Std';
+	margin-top: 15% ;
+	font-size: 24px;
+	color: #292929;
+	opacity: 0.75;	
+}
+.sidebar_wrapper{
+	display: flex;
+	justify-content: flex-end;
+	width: 30%;
+}
+.sidebar{
+	margin-right: 30%;
+	text-align: center;
+	height: 100%;
+	width: 100%;
+}
+.sidebar h2{
+	font-family: 'BPG Mrgvlovani Caps';
+	font-size: 40px;
+	color: #292929;
+	opacity: 0.75;
+	margin: 70% 0 10% 0;
+}
+.sidebar p{
+	color: #3C3C3C;
+	font-size: 22px;
+	margin-bottom: 10%;
+	white-space: nowrap;
+}
+.widget:nth-child(3) h2{
+	font-family: 'BPG Mrgvlovani Caps';
+	display: none;
+}
+.widget:nth-child(3) a{
+	font-family: 'BPG Mrgvlovani Caps';
+	color: #292929;
+    font-size: 18px;
+}
+.widget:nth-child(3) li{
+	padding: 10% 0;
+	border-top: #0C3D93 1px solid;
+	opacity: 0.75
+}
+.widget:nth-child(3) li:last-of-type{
+	border-bottom: #0C3D93 1px solid;
+}
+.widget:nth-child(4) p{
+	font-family: 'BPG Mrgvlovani Caps';
+	font-size:18px;
+	color: #292929;
+	opacity: 0.75;
+	margin: 80% 0 20% 0;
+}
+.button_wrapper_art{
+	display: flex;
+	justify-content: center;
+}
+.button_wrapper_art button{
+	font-family: 'BPG Mrgvlovani Caps';
+	border: #0C3D93 1px solid;
+	background-color: transparent;
+	color: #0C3D93;
+	font-size: 24px;
+	padding: 2% 3%;
+	cursor: pointer;
+	transition: 170ms linear;
+	margin-top: 10%;
+}
+.button_wrapper_art button:hover{
+	background-color:#0C3D93 ;
+	color: #fff;
+}
+.ser_art_wrapper:nth-child(2){
+	margin: 10% 0;
+	width: 90%;
+}
+.ser_art_wrapper:nth-child(2) img{
+	width: 48%;
+}
+.ser_art_wrapper:nth-child(2) .art_text_wrapper{
+	width: 45%;
+}
+.ser_art_wrapper:nth-child(2) h2{
+	font-family: 'BPG Mrgvlovani Caps';
+	text-align: end;
+}
+/* services- single page
+=========================================================================================================*/
+
+.single_art_wrapper{
+	display: flex;
+	justify-content: space-between;
+	align-items: flex-end;
+	flex-wrap: wrap;
+	margin: 10% 0;
+	width: 90%;
+}
+.single_cont_wrapper{
+	display: flex;
+	flex-direction: column;
+	width: 40%;
+}
+.single_cont_wrapper img{
+	width: 150%;
+}
+.single_art_wrapper p{
+	font-family: 'Bradley Hand ITC Std';
+	font-size: 28px;
+	color: #292929;
+	opacity: 0.75;
+	width:35%
+}
+.single_cont_wrapper h2{
+	font-family: 'BPG Mrgvlovani Caps';
+	font-size: 40px;
+	color: #292929;
+	opacity: 0.75;
+	margin-left: 15%;
+	border-bottom: 3px #292929 solid;
+	margin-bottom:20%;
+}
+.price_wrapper{
+	display: flex;
+	margin-left: 10%;
+	width: 50%;
+}
+.price_list{
+	margin: 0 50px 50px 0;
+}
+.price_wrapper:first-child .price_list:nth-child(2){
+	margin-right: 0;
+}
+.price_wrapper:last-child .price_list{
+	margin-bottom: 0;
+}
+.price_list li{
+	font-family: 'BPG Mrgvlovani Caps';
+	color: #3C3C3C;
+	font-size: 32px;
+	opacity: 0.75;
+	white-space: nowrap;
+}

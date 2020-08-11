@@ -1,0 +1,219 @@
+@media(max-width:1024px){
+    .single_art_wrapper{
+        margin-left: 7%;   
+    }
+    .single_cont_wrapper{
+        width: 50%;
+    }
+    .single_art_wrapper p{
+        width: 90%;
+    }
+    .single_cont_wrapper img{
+        margin-bottom: 5%;
+    }
+}
+@media(max-width:991px){
+    .container{
+        width: 90%;
+    }
+    .block_wrapper{
+        padding-left: 7%;
+    }
+    .bg_sec2{
+        padding-left: 7%;
+    }
+    .img_wrapper_about{
+        width: 43%;
+    }
+    .bg_sec3{
+        padding-right: 7%;
+    }
+    .img_wrapper_services{
+        width: 60%;
+    }
+    .text_wrapper_services{
+        width: 37%;
+    }
+    .article_wrapper{
+        margin-left: 7%;
+    }
+    .article_wrapper:nth-child(2){
+        margin-right: 7%;
+    }
+    .par_wrapper{
+        width: 55%;
+    }
+    .article_wrapper img{
+        width: 40%;
+    }
+    .ser_art_wrapper{
+        margin-left: 7%;
+    }
+    .sidebar_wrapper{
+        width: 25%;
+    }
+    .sidebar{
+        margin-right: 25%;
+    }
+    .art_text_wrapper{
+        width: 40%;
+    }
+    .ser_art_wrapper:nth-child(2) img{
+        width: 43%;
+    }
+}
+
+@media(max-width:900px){
+    .zako{
+        display: none;
+    }
+    .topnav {
+        display: flex;
+    }
+}
+@media(max-width:767px){
+    .block_wrapper h1{
+        font-size: 42px;
+    }
+    .block_wrapper p{
+        font-size: 20px;
+    }
+    button{
+        font-size: 20px;
+    }
+    .about_wrapper h2{
+        font-size: 48px;
+    }
+    .about_wrapper{
+        width: 100%;
+    }
+    .img_wrapper_about{
+        width: 100%;
+        margin-bottom: 5%;
+    }
+    .bg_sec2{
+        padding-right: 7%;
+    }
+    .img_wrapper_services{
+        width: 100%;
+        margin-bottom: 5%;
+    }
+    .text_wrapper_services{
+        width: 100%;
+    }
+    .img_wrapper_services h2{
+        font-size: 48px;
+    }
+    .text_wrapper_services h3{
+        font-size: 36px;
+    }
+    .text_wrapper_services p{
+        font-size: 20px;
+    }
+    .bg_sec3{
+        padding-left: 7%;
+    }
+    .bg_sec4 h2{
+        font-size: 48px;
+    }
+    .gallery_wrapper img{
+        width: 100%;
+    }
+    .gallery_wrapper img:last-of-type,
+    .gallery_wrapper img:nth-of-type(2){
+        margin-top: 4%;
+    }
+    .contact_wrapper h2{
+        font-size: 48px;
+    }
+    .contact_wrapper{
+        width: 100%;
+    }
+    .footer_wrapper iframe{
+        width: 100%;
+        margin-top: 5%;
+    }
+    .ser_art_wrapper img,
+    .art_text_wrapper,
+    .ser_art_wrapper:nth-child(2) img,
+    .ser_art_wrapper:nth-child(2) .art_text_wrapper{
+        width: 100%;
+    }
+    .ser_art_wrapper:nth-child(2){
+        display: flex;
+        flex-direction: column;
+        margin-left: 7%;
+        width: 77%;
+    }
+    .ser_art_wrapper img{
+        margin-bottom: 5%;
+    }
+    .article_wrapper{
+        margin-right: 7%;
+    }
+    .article_wrapper img{
+        width: 100%;
+        margin-bottom: 5%;
+    }
+    .par_wrapper{
+        width: 100%;
+    }
+    .article_wrapper:nth-child(2){
+        display: flex;
+        flex-direction: column;
+        margin-left: 7%;
+    }
+    .price_list li{
+        font-size: 24px;
+    }
+
+}
+@media(max-width:665px){
+    .block_wrapper{
+        position: static;
+        width: 90%;
+        padding: 3% 0 0 7%;
+        background-color: transparent;
+    }
+    .widget:first-child img{
+        width: 50%;
+    }
+    .sidebar p{
+        white-space: normal;
+    }
+    .sidebar h2{
+        font-size: 32px;
+    }
+}
+
+@media(max-width:479px){
+    .ser_art_wrapper{
+        width: 90%;
+    }
+    .ser_art_wrapper h2{
+        font-size: 32px;
+    }
+    .art_text_wrapper p,
+    .about_wrapper p{
+        font-size: 20px;
+    }
+    .sidebar_wrapper{
+        display: none;
+    }
+    .price_list{
+        margin: 0 20px 20px 0;
+    }
+    .price_wrapper:first-child .price_list:nth-child(2){
+        margin-right: 0;
+    }
+    
+}
+@media(max-width:479px){
+    .single_art_wrapper p{
+        font-size: 24px;
+        
+    }
+    .price_list li{
+        font-size: 20px;
+    }
+}
